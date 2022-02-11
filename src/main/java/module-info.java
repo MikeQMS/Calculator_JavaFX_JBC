@@ -1,4 +1,4 @@
-module com.example.project_javafx {
+module com.project_javafx {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.project_javafx {
     requires eu.hansolo.tilesfx;
     requires java.desktop;
 
-    opens com.example.project_javafx to javafx.fxml;
-    exports com.example.project_javafx;
+    opens com.project_javafx to javafx.fxml;
+    exports com.project_javafx;
 }
